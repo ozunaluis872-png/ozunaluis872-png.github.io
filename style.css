@@ -16,6 +16,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 120px;
   width: 100%;
   overflow-x: hidden;
 }
@@ -145,14 +146,14 @@ a:hover {
   white-space: nowrap;
 }
 
-#inicio {
-  scroll-margin-top: 110px;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 30px;
+#inicio,
+.section,
+[id^="sobre-mi"],
+[id^="proyectos"],
+[id^="tecnologias"],
+[id^="experiencia"],
+[id^="certificaciones"],
+[id^="contacto"] {
 }
 
 .nav-links a {
