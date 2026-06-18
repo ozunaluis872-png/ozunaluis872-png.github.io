@@ -10,3 +10,4 @@ env/
 venv/
 .Python
 profile.png
+remove_bg.py
